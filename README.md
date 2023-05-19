@@ -15,8 +15,14 @@ No importa si eres un entrenador experimentado o un novato en el mundo de los Po
 
 Pasos: 
 1.- Clonar el repositorio
+
 2.- En el directorio Raiz instalar los modulos con el comando: npm i
+
 3.- esperar a que se intalen
+
 4.- correr la app con npx react-native run-android or npx react-native run-ios (aunque en ios no se tiene el splasheet ya que no tengo mac :c )
+
 5.- Listo!
 [![Alt text](https://img.youtube.com/vi/wjRKRGkeTJo/0.jpg)]
+
+En dado caso que no corra verificar que este configurado bien en android o el xcore
