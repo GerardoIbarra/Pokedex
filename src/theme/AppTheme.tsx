@@ -54,48 +54,60 @@ export const styles = StyleSheet.create({
     bottom: -5,
     top: -10,
   },
-  ContainerPokemon:{
-    height:370, 
-    zIndex:999,
-    alignItems:'center',
-    borderBottomLeftRadius:1000,
-    borderBottomRightRadius:1000,
-
+  ContainerPokemon: {
+    height: 370,
+    zIndex: 999,
+    alignItems: 'center',
+    borderBottomLeftRadius: 1000,
+    borderBottomRightRadius: 1000,
   },
-  pokeName:{
-    color:'white',
-    fontSize:35,
+  pokeName: {
+    color: 'white',
+    fontSize: 35,
   },
-  pokeballScrenn:{
+  pokeballScrenn: {
     width: 250,
     height: 250,
-    opacity: 0.7 ,
-    bottom: -30
+    opacity: 0.7,
+    bottom: -30,
   },
-  pokemonImageScrren:{
+  pokemonImageScrren: {
     width: 220,
     height: 220,
-   bottom: -10,
-   position: 'absolute',
+    bottom: -10,
+    position: 'absolute',
   },
-  textBusqueda:{
+  textBusqueda: {
     // backgroundColor:'#f3f1f3',
-    backgroundColor:'black',
-    borderRadius:20,
+    backgroundColor: 'gray',
+    borderRadius: 20,
     height: 42,
-    paddingHorizontal:20,
-    justifyContent:'center',
-    alignItems:'center',
-    flexDirection:'row',
-    shadowColor: "#000",
+    paddingHorizontal: 20,
+    justifyContent: 'center',
+    alignItems: 'center',
+    flexDirection: 'row',
+    shadowColor: '#000',
     shadowOffset: {
-        width: 0,
-        height: 3,
+      width: 0,
+      height: 3,
     },
     shadowOpacity: 0.27,
     shadowRadius: 4.65,
 
     elevation: 6,
-  }
-  
+  },
+  cardfavorite: {
+    position: 'absolute',
+    top: '23%',
+    right: 30,
+  },
+  favorite1: {
+    height: 40,
+    width: 40,
+  },
+  cardshare: {
+    position: 'absolute',
+    top: '23%',
+    left: 30,
+  },
 });
